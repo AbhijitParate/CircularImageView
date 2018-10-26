@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.ap.circularimageview.civ.CircularImageView
+        android:id="@+id/circularImageView"
+        android:layout_width="248dp"
+        android:layout_height="248dp"
+        app:hasOutline="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:outlineColor="#ff0000"
+        app:outlineWidth="2dp"
+        app:srcCompat="@mipmap/sample" />
+
+</android.support.constraint.ConstraintLayout>
